@@ -155,6 +155,52 @@
         </footer>
         <!-- Footer -->
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="text-center">Formulário para cadastro de usuários.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu Nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" placeholder="Digite Seu Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Senha" class="form-label">Senha</label>
+                                <input type="password" class="form-control" placeholder="Digite sua senha.">
+                            </div>
+                            <div class="mb-3">
+                                <label for="sexo" class="form-label">Sexo</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>-</option>
+                                    <option value="1">Masculino</option>
+                                    <option value="2">Femenino</option>
+                                    <option value="3">Outro</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Cadastre - se</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- FIM MODAL-->
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+        </script>
         <!-- End of .container -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
             integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
