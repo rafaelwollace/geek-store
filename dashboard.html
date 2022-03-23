@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEEK STORE</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" </head>
+
+    <body>
+        <main role="main">
+            <!-- NAV -->
+            <section class="p-3  text-white color">
+                <div class="container">
+                    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                        <a href="/" class="d-flex align-items-center mb-2 mb-lg-2 text-white text-decoration-none">
+                            <img src="img/logo-min.jpg" class="rounded float-left" alt="LOGO MARCA" width="60"
+                                height="60">
+                        </a>
+                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                            <li><a href="dashboard.html" class="nav-link px-3 text-white">PRINCIPAL (LINK)</a></li>
+                            <li><a href="produtos.html" class="nav-link px-2 text-white">PRODUTOS (LINK)</a></li>
+                            <li><a href="#" class="nav-link px-2 text-white">QUEM SOMOS</a></li>
+                            <li><a href="#" class="nav-link px-2 text-white">CADASTRO</a></li>
+                        </ul>
+                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                            <input type="search" class="form-control form-control-dark" placeholder="Procurando ?"
+                                aria-label="Search">
+                        </form>
+                        <div class="text-end">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"> Cadastro (LINK)</button>
+                            <a href="index.html"><button type="button" class="btn btn-warning">Login (LINK)</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIM NAV -->
+            <!-- CARROUSEL -->
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+                        aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner/lacamento.webp" width="100%" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner/frete-gratis.webp" width="100%" />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner/canecas.webp" width="100%" />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- FIM CARROUSEL -->
+        </main>
+        <!-- CONTEUDO -->
+        <div class="container py-3">
+            <img src="img/banner/nerd.gif" class="img-fluid" width="100%">, <div class="row py-5">
+                <div class="section-title row has-title">
+                    <div class="col-12 text-center">
+                        <div class="h1 fw-bold text-center mt-2">Lançamentos </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/produtos/mario.jpg" class="card-img-top" alt="SUPER MARIO">
+                        <div class="card-body">
+                            <h5 class="text-center">Caneca Super Mario</h5>
+                            <p class="card-text">Lançada em 1985 pela Nintendo, a série Super Mario Bros é estrelada
+                                pelo famoso bombeiro Mario...</p>
+                            <div class="px-2 mt-3"> <button class="btn btn-success px-3">Comprar</button> <button
+                                    class="btn btn-outline-primary px-3">CARRINHO</button> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-1">
+                    <div class="card">
+                        <img src="img/produtos/pop.webp" class="card-img-top" alt="POP FUNKO">
+                        <div class="card-body">
+                            <h5 class="text-center">Pop funko</h5>
+                            <p class="card-text">Funko Pop. Marcas como Disney, Marvel, Dc Comics e Animes de Sucesso.
+                                Conheça...</p>
+                            <div class="px-2 mt-3"> <button class="btn btn-success px-3">Comprar</button> <button
+                                    class="btn btn-outline-primary px-3">CARRINHO</button> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-1">
+                    <div class="card">
+                        <img src="img/produtos/forte.webp" class="card-img-top" alt="JOGO FORT">
+                        <div class="card-body">
+                            <h5 class="text-center">Caneca Forte Nite</h5>
+                            <p class="card-text">Fortnite é um Battle Royale grátis com vários modos de jogo para todo
+                                tipo de jogador. Assista a um show...</p>
+                            <div class="px-2 mt-3"> <button class="btn btn-success px-3">Comprar</button> <button
+                                    class="btn btn-outline-primary px-3">CARRINHO</button> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 py-1">
+                    <div class="card">
+                        <img src="img/produtos/punk.webp" class="card-img-top" alt="JOGO PUNK">
+                        <div class="card-body">
+                            <h5 class="text-center">CyberPunk Jogo</h5>
+                            <p class="card-text">Cyberpunk 2077 é uma história de ação e aventura de mundo aberto
+                                ambientada em Night City, ...</p>
+                            <div class="px-2 mt-3"> <button class="btn btn-success px-3">Comprar</button> <button
+                                    class="btn btn-outline-primary px-3">CARRINHO</button> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIM CONTEUDO -->
+        <div class="container rounded">
+            <div class="h1 fw-bold text-center mt-2">Patrocinadores </div>
+            <div class="rollers position-relative overflow-hidden">
+                <div class="start-roller"></div>
+                <div class="wrapper">
+                    <div class="items-container roll-LL">
+                        <div class="item"> <img src="img/patrocinadores/1.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/2.jpg" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/3.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/4.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/5.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/6.png" class="company"> </div>
+                    </div>
+                    <div class="items-container roll-RL">
+                        <div class="item"> <img src="img/patrocinadores/7.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/8.jpg" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/9.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/10.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/11.png" class="company"> </div>
+                        <div class="item"> <img src="img/patrocinadores/12.png" class="company"> </div>
+                    </div>
+                </div>
+                <div class="end-roller"></div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-white color-two">
+            <div class="container text-center text-md-start mt-5 py-1">
+                <div class="row">
+                    <div class="container text-center text-md-start mt-5 py-1">
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/logo-min.jpeg" class="rounded" alt="LOGO MARCA" width="200" height="200">
+                            </div>
+                            <div class="col">
+                                <h3>Contatos</h3>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto line" />
+                                <p>Manaus - Am Centro</p>
+                                <p> geek@geek-store.com</p>
+                                <p> 92 993-82262</p>
+                                <p>92 993-82262</p>
+                            </div>
+                            <div class="col">
+                                <h3>Aceitamos Todos os Cartões</h3>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto" />
+                                <img src="img/outros/cartoes.png" class="rounded" alt="cartoes">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3 color"> © 2022 Copyright: Geek - Store</div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        </div>
+        <!-- End of .container -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+        </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="text-center">Formulário para cadastro de usuários.</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu Nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" placeholder="Digite Seu Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Senha" class="form-label">Senha</label>
+                                <input type="password" class="form-control" placeholder="Digite sua senha.">
+                            </div>
+                            <div class="mb-3">
+                                <label for="sexo" class="form-label">Sexo</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>-</option>
+                                    <option value="1">Masculino</option>
+                                    <option value="2">Femenino</option>
+                                    <option value="3">Outro</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary">Cadastre - se</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- FIM MODAL-->
+        <script>
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+        </script>
+    </body>
+
+</html>
